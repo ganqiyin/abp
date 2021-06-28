@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DF0E140-0513-4D0D-BE2E-3D4D85CD70E6}"
 EndProject
@@ -369,19 +369,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Compone
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions", "..\..\framework\src\Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions\Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions.csproj", "{E9CE58DB-0789-4D18-8B63-474F7D7B14B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.Authorization.Abstractions", "..\..\framework\src\Volo.Abp.Authorization.Abstractions\Volo.Abp.Authorization.Abstractions.csproj", "{87B0C2A8-FE95-4779-8B9C-2181AA52B3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Authorization.Abstractions", "..\..\framework\src\Volo.Abp.Authorization.Abstractions\Volo.Abp.Authorization.Abstractions.csproj", "{87B0C2A8-FE95-4779-8B9C-2181AA52B3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.TextTemplating.Core", "..\..\framework\src\Volo.Abp.TextTemplating.Core\Volo.Abp.TextTemplating.Core.csproj", "{184E859A-282D-44D7-B8E9-FEA874644013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.TextTemplating.Core", "..\..\framework\src\Volo.Abp.TextTemplating.Core\Volo.Abp.TextTemplating.Core.csproj", "{184E859A-282D-44D7-B8E9-FEA874644013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.TextTemplating.Scriban", "..\..\framework\src\Volo.Abp.TextTemplating.Scriban\Volo.Abp.TextTemplating.Scriban.csproj", "{228723E6-FA6D-406B-B8F8-C9BCC547AF8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.TextTemplating.Scriban", "..\..\framework\src\Volo.Abp.TextTemplating.Scriban\Volo.Abp.TextTemplating.Scriban.csproj", "{228723E6-FA6D-406B-B8F8-C9BCC547AF8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.TextTemplating.Razor", "..\..\framework\src\Volo.Abp.TextTemplating.Razor\Volo.Abp.TextTemplating.Razor.csproj", "{42EA6F06-2D78-4D18-8AC4-8F2AB7E6DA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.TextTemplating.Razor", "..\..\framework\src\Volo.Abp.TextTemplating.Razor\Volo.Abp.TextTemplating.Razor.csproj", "{42EA6F06-2D78-4D18-8AC4-8F2AB7E6DA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.TextTemplating.Razor.Tests", "..\..\framework\test\Volo.Abp.TextTemplating.Razor.Tests\Volo.Abp.TextTemplating.Razor.Tests.csproj", "{C996F458-98FB-483D-9306-4701290E2FC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.TextTemplating.Razor.Tests", "..\..\framework\test\Volo.Abp.TextTemplating.Razor.Tests\Volo.Abp.TextTemplating.Razor.Tests.csproj", "{C996F458-98FB-483D-9306-4701290E2FC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.TextTemplating.Scriban.Tests", "..\..\framework\test\Volo.Abp.TextTemplating.Scriban.Tests\Volo.Abp.TextTemplating.Scriban.Tests.csproj", "{75D8DADB-3FA9-4C1D-B23A-DBFD08133B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.TextTemplating.Scriban.Tests", "..\..\framework\test\Volo.Abp.TextTemplating.Scriban.Tests\Volo.Abp.TextTemplating.Scriban.Tests.csproj", "{75D8DADB-3FA9-4C1D-B23A-DBFD08133B7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.MongoDB.Tests.SecondContext", "..\..\framework\test\Volo.Abp.MongoDB.Tests.SecondContext\Volo.Abp.MongoDB.Tests.SecondContext.csproj", "{90B1866A-EF99-40B9-970E-B898E5AA523F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.MongoDB.Tests.SecondContext", "..\..\framework\test\Volo.Abp.MongoDB.Tests.SecondContext\Volo.Abp.MongoDB.Tests.SecondContext.csproj", "{90B1866A-EF99-40B9-970E-B898E5AA523F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cms", "cms", "{9FBD02B5-8831-40E8-917D-9315C0A8FB4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "abp", "abp", "{D66BA649-A6A0-43AB-A3B7-F53114F8FCD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{167F0818-0437-4ED4-BEB1-A4061205D289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D644DF7C-0D53-4CBE-86D0-9A55D20619F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1146,6 +1154,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{5DF0E140-0513-4D0D-BE2E-3D4D85CD70E6} = {D66BA649-A6A0-43AB-A3B7-F53114F8FCD2}
+		{447C8A77-E5F0-4538-8687-7383196D04EA} = {D66BA649-A6A0-43AB-A3B7-F53114F8FCD2}
 		{1020F5FD-6A97-40C2-AFCA-EBDF641DF111} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 		{02BE03BA-3411-448C-AB61-CB36407CC49A} = {5DF0E140-0513-4D0D-BE2E-3D4D85CD70E6}
 		{B1D860BB-6EC6-4BAE-ADAA-C2AEC2FFB510} = {447C8A77-E5F0-4538-8687-7383196D04EA}
@@ -1334,6 +1344,8 @@ Global
 		{C996F458-98FB-483D-9306-4701290E2FC1} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 		{75D8DADB-3FA9-4C1D-B23A-DBFD08133B7C} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 		{90B1866A-EF99-40B9-970E-B898E5AA523F} = {447C8A77-E5F0-4538-8687-7383196D04EA}
+		{167F0818-0437-4ED4-BEB1-A4061205D289} = {9FBD02B5-8831-40E8-917D-9315C0A8FB4E}
+		{D644DF7C-0D53-4CBE-86D0-9A55D20619F4} = {9FBD02B5-8831-40E8-917D-9315C0A8FB4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB97ECF4-9A84-433F-A80B-2A3285BDD1D5}
