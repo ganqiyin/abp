@@ -2,11 +2,14 @@
 using Microsoft.Extensions.Hosting;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
+using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
 
 namespace GR.CMS.Web
 {
-    [DependsOn(typeof(AbpAspNetCoreMvcModule))]
+    [DependsOn(
+        typeof(AbpAspNetCoreMvcModule),
+        typeof(AbpAutofacModule))]
     public class CMSWebModule : AbpModule
     {
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
